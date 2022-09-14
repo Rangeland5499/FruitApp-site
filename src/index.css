@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.table-header {
+    @apply py-4 pl-10 pr-10 m-auto text-lg font-medium text-gray-100 ;
+  }
+  
+  .table-cell {
+    @apply py-2 pl-10 pr-10 text-left border-b text-gray-900 whitespace-nowrap;
+  }
+  
+  
